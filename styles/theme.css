@@ -1,9 +1,8 @@
-/* Add Dark Mode toggle */
-body.dark-mode {
-    background: #121212;
-    color: #e0e0e0;
-}
 :root {
     --bg-dark: #121212;
     --text-light: #e0e0e0;
+}
+body.dark-mode {
+    background: var(--bg-dark);
+    color: var(--text-light);
 }
